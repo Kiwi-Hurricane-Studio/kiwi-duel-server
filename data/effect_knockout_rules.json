@@ -1,0 +1,26 @@
+{
+  "schema": "kiwi-effect-knockout-rules-v1",
+  "purple_attacks": [
+    {"skill":1044,"target":"both"},
+    {"skill":1051,"target":"both"},
+    {"skill":1090,"target":"opponent"},
+    {"skill":1309,"target":"opponent"},
+    {"skill":1112,"target":"opponent","opponent_color":2},
+    {"skill":1497,"target":"opponent","excluded_target_type":12}
+  ],
+  "conditional_purple_attacks": [
+    {"skill":1487,"target":"opponent","requires_special_condition":true,"wait":3,"wait_before_knockout":true},
+    {"skill":1544,"target":"opponent","requires_special_condition_or_wait":true,"wait":3,"wait_before_knockout":false}
+  ],
+  "protections": [
+    {"ability":1143,"target":"adjacent_allies","includes_self":true},
+    {"ability":1276,"target":"allied_type","target_type":2,"owner_turn_only":true,"opponents_attacks_only":true},
+    {"ability":1381,"target":"self","opponents_attacks_only":true},
+    {"ability":1427,"target":"allied_type","target_type":17,"emitter_type":0,"healthy_target":true},
+    {"ability":1428,"target":"allied_type","target_type":17,"emitter_type":0,"healthy_target":true},
+    {"ability":1429,"target":"self","healthy_target":true},
+    {"ability":1476,"target":"self","healthy_target":true}
+  ],
+  "special_conditions": ["bad_poison","burn","freeze","melt","panic","paralyze","poison","sleep"],
+  "evidence_scope": "Original six Purple Attack predicates and seven effect-KO protection clauses. Damage KO, surround, delayed markers and replacement destinations are separate. Existing FromTo Center operations and cleanup are reused. An opposite-team two-KO batch resolves inline after validating both Centers; this ordering and new skill/prevention notice sequencing are not native-observed and remain partial."
+}

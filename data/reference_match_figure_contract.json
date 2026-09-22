@@ -1,0 +1,26 @@
+{
+  "schema": "pokemon-duel-reference-match-figure-contract-1",
+  "sources": {
+    "record": "res://data/reference_match_record.json",
+    "identity_map": "res://data/figure_master_map.json",
+    "rarity_runtime_capture": "res://docs/generated/battle-route-20260906/candidate-boot-cache-audit.json"
+  },
+  "notes": {
+    "level": "The preserved runtime deck items use level 5 and experience 80000.",
+    "rarity_1296": "Unavailable in the preserved runtime deck cache; consumers retain the serialized FigureThumbnail default instead of inventing a value."
+  },
+  "figures": {
+    "1025": {"item_master_id": 1025, "figure_number": 89, "model": 25, "mp": 2, "rarity": 2},
+    "1103": {"item_master_id": 1103, "figure_number": 59, "model": 103, "mp": 2, "rarity": 3},
+    "1106": {"item_master_id": 1106, "figure_number": 128, "model": 106, "mp": 2, "rarity": 2},
+    "1150": {"item_master_id": 1150, "figure_number": 146, "model": 150, "mp": 2, "rarity": 3},
+    "1244": {"item_master_id": 1244, "figure_number": 106, "model": 244, "mp": 1, "rarity": 2},
+    "1296": {"item_master_id": 1296, "figure_number": 293, "model": 296, "mp": 0, "rarity": null},
+    "1302": {"item_master_id": 1302, "figure_number": 299, "model": 302, "mp": 2, "rarity": 2},
+    "1313": {"item_master_id": 1313, "figure_number": 310, "model": 313, "mp": 2, "rarity": 3},
+    "1345": {"item_master_id": 1345, "figure_number": 345, "model": 345, "mp": 2, "rarity": 4},
+    "1388": {"item_master_id": 1388, "figure_number": 388, "model": 388, "mp": 2, "rarity": 2},
+    "1414": {"item_master_id": 1414, "figure_number": 414, "model": 414, "mp": 2, "rarity": 4},
+    "1433": {"item_master_id": 1433, "figure_number": 433, "model": 433, "mp": 1, "rarity": 4}
+  }
+}

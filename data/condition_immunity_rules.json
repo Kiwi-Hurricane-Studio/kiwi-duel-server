@@ -1,0 +1,37 @@
+{
+  "schema": "kiwi-condition-immunity-rules-v1",
+  "evidence_kind": "original_descriptions",
+  "status": "partial",
+  "source": "docs/generated/battle-route-20260906/candidate-boot-cache-audit.json",
+  "type_labels": {"2": "Grass", "8": "Water", "10": "Poison"},
+  "rules": [
+    {"ability": 1001, "scope": "self", "conditions": ["paralyze"]},
+    {"ability": 1027, "scope": "self", "conditions": ["poison", "bad_poison", "paralyze", "burn"]},
+    {"ability": 1048, "scope": "self", "conditions": ["paralyze"]},
+    {"ability": 1064, "scope": "self", "conditions": ["sleep"]},
+    {"ability": 1066, "scope": "self", "conditions": ["panic"]},
+    {"ability": 1071, "scope": "self", "conditions": ["burn"]},
+    {"ability": 1072, "scope": "self", "conditions": ["burn"]},
+    {"ability": 1073, "scope": "self", "conditions": ["burn"]},
+    {"ability": 1075, "scope": "self", "conditions": ["poison", "bad_poison"]},
+    {"ability": 1077, "scope": "self", "conditions": ["sleep"]},
+    {"ability": 1149, "scope": "self", "conditions": ["burn", "freeze"]},
+    {"ability": 1151, "scope": "team", "conditions": ["burn"], "types": [8]},
+    {"ability": 1153, "scope": "self", "conditions": ["freeze", "sleep"]},
+    {"ability": 1226, "scope": "self", "conditions": ["bad_poison", "burn", "freeze", "melt", "panic", "paralyze", "poison"]},
+    {"ability": 1330, "scope": "self", "conditions": ["paralyze"]},
+    {"ability": 1338, "scope": "self", "conditions": ["paralyze"]},
+    {"ability": 1339, "scope": "self", "conditions": ["paralyze"]},
+    {"ability": 1383, "scope": "team", "conditions": ["burn"]},
+    {"ability": 1396, "scope": "team", "conditions": ["poison", "bad_poison"], "types": [2, 10]},
+    {"ability": 1427, "scope": "team", "conditions": ["bad_poison", "burn", "freeze", "melt", "panic", "paralyze", "poison", "sleep"]},
+    {"ability": 1484, "scope": "self", "conditions": ["bad_poison", "burn", "freeze", "melt", "panic", "paralyze", "poison"]},
+    {"ability": 1485, "scope": "adjacent_team", "conditions": ["bad_poison", "burn", "freeze", "melt", "panic", "paralyze", "poison", "sleep"]}
+  ],
+  "unresolved": [
+    "Native prevention notices and ordering have not been observed.",
+    "Ability suppression, type changes, forms/evolution and pending-knockout source lifetime need separate controls.",
+    "Other clauses of these abilities, including recovery, damage and movement, are not implemented by these rules.",
+    "Freeze-specific immunity is not assumed to include the separate melt condition."
+  ]
+}

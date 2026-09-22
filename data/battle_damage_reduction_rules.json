@@ -1,0 +1,9 @@
+{
+  "schema": "kiwi-battle-damage-reduction-rules-v1",
+  "status": "partial_description_derived",
+  "rules": [
+    {"ability": 1301, "attacker_type": 1, "reduction": 30},
+    {"ability": 1377, "holder_special_condition": true, "reduction": 50}
+  ],
+  "evidence": "docs/generated/mechanics-20260913/battle-damage-reduction-contract.json"
+}

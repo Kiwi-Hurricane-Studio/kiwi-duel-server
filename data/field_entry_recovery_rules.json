@@ -1,0 +1,12 @@
+{
+  "schema": "kiwi-field-entry-recovery-rules-v3",
+  "status": "partial_original_native_entry_controls",
+  "rules": [
+    {"ability": 1186, "scope": "field", "remove_special_conditions": true, "remove_wait": false},
+    {"ability": 1198, "scope": "field", "remove_special_conditions": false, "remove_wait": true},
+    {"ability": 1207, "scope": "field", "remove_special_conditions": true, "remove_curse": true, "remove_wait": false},
+    {"ability": 1377, "scope": "field", "remove_special_conditions": false, "remove_conditions": ["burn"], "remove_wait": false},
+    {"ability": 1383, "scope": "field", "remove_special_conditions": false, "remove_conditions": ["burn"], "remove_wait": false}
+  ],
+  "evidence": ["docs/generated/mechanics-20260913/field-entry-recovery-contract.json", "docs/generated/mechanics-20260913/duel-entry-recovery-contract.json", "docs/generated/mechanics-20260913/entry-marker-recovery-contract.json"]
+}

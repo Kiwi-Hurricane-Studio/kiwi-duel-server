@@ -1,0 +1,7 @@
+{
+  "hostingMode": "named",
+  "publicHostname": "play.kiwihurricanestudio.com",
+  "httpPort": 8080,
+  "gamePort": 8081,
+  "chestUnlockMilliseconds": 3000
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "kiwi-battle-color-rules-v1",
+  "rules": [
+    {"ability":1227,"target":"self","from_color":1,"to_color":3,"first_battle":true},
+    {"ability":1308,"target":"self","from_color":1,"to_color":3,"first_battle":true},
+    {"ability":1409,"target":"opponent","from_color":3,"to_color":1,"first_battle":false},
+    {"ability":1397,"target":"opponent","from_color":3,"to_color":1,"first_battle":true},
+    {"ability":1398,"target":"opponent","from_color":3,"to_color":1,"first_battle":true},
+    {"ability":1399,"target":"opponent","from_color":3,"to_color":1,"first_battle":true},
+    {"ability":1423,"target":"opponent","from_color":3,"to_color":1,"first_battle":true},
+    {"ability":1197,"target":"self","from_color":1,"to_color":3,"first_battle":false,"adjacent_species_rule_ids":[1318]},
+    {"ability":1392,"target":"allied_type_opponents","from_color":3,"to_color":1,"first_battle":false,"protected_types":[16,3]},
+    {"ability":1262,"target":"nearby","from_color":3,"to_color":1,"first_battle":false,"owner_turn_only":true,"distance":2,"announce":false,"target_order":"defender_first"}
+  ],
+  "evidence_scope": "Original first-battle, battle-opponent, adjacent-Durant, allied Dragon16/Psychic3 and owner-turn/range2 clauses. Original SpeedUpSkill action contains pokemon and Attack-ID list; Roulette applies Gold3/White1 to every matching segment. Up-before-down follows original client replay order. Isolated original ARM flight/Ice Shard and Surge participant/ally controls verify1262 emits SpeedDownSkill without an ability notice; genuine catalog Gold1002/1001 paired controls verify defender-first target order. Participant self-inclusion is verified for1262. Other abilities' multi-target notice grouping, cross-ability conflict priority, suppression, Z interactions and form changes remain unverified."
+}

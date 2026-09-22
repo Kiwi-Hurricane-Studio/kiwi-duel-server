@@ -1,0 +1,41 @@
+{
+  "schema": "pokemon-duel-native-pokepower-1227-contract-1",
+  "source_record": "docs/generated/battle-route-20260904/live-full-battle/bridge-run/match-224417/turn-005-record.json",
+  "native_spin_query": "docs/generated/battle-route-20260909/pokepower-declaration-native-query/pokepower-1227-gold-vs-purple-output_effects.json",
+  "defender": {
+    "direct_evolution": false,
+    "evolution": -1,
+    "form_index": 2,
+    "id": 1273,
+    "mp": 3,
+    "pokemon_index": 2,
+    "pokepower": 1227,
+    "skills": [
+      {"color": 0, "id": 1131, "range": 12, "speed_or_damage": 0},
+      {"color": 1, "id": 1372, "range": 52, "speed_or_damage": 30},
+      {"color": 0, "id": 1131, "range": 8, "speed_or_damage": 0},
+      {"color": 2, "id": 1023, "range": 24, "speed_or_damage": 1}
+    ]
+  },
+  "attacker": {
+    "direct_evolution": false,
+    "evolution": -1,
+    "form_index": 7,
+    "id": 1421,
+    "mp": 3,
+    "pokemon_index": 7,
+    "pokepower": 1349,
+    "skills": [
+      {"color": 0, "id": 1131, "range": 4, "speed_or_damage": 0},
+      {"color": 2, "id": 1057, "range": 16, "speed_or_damage": 3},
+      {"color": 1, "id": 1633, "range": 32, "speed_or_damage": 140},
+      {"color": 2, "id": 1057, "range": 16, "speed_or_damage": 3},
+      {"color": 4, "id": 1122, "range": 4, "speed_or_damage": 0},
+      {"color": 1, "id": 1643, "range": 24, "speed_or_damage": 100}
+    ]
+  },
+  "controlled_units": {
+    "defender": 20,
+    "attacker": 8
+  }
+}

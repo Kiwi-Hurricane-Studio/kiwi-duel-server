@@ -1,0 +1,16 @@
+{
+  "schema": "kiwi-purple-wait-rules-v1",
+  "status": "partial_description_derived",
+  "attacks": [
+    {"skill":1471,"condition":"paralyze","wait":3,"target":"opponent"},
+    {"skill":1524,"condition":"burn","wait":3,"target":"opponent_and_adjacent_opponents"},
+    {"skill":1532,"wait":3,"target":"opposing_connected_component"},
+    {"skill":1566,"wait":3,"target":"opponent"},
+    {"skill":1598,"condition":"poison","wait":7,"target":"opponent"}
+  ],
+  "evidence": "docs/generated/mechanics-20260913/purple-wait-study.json",
+  "unresolved": [
+    "Native target/notice order and succession propagation through a Wait-immune figure are unobserved.",
+    "Wait immunity, duration extension, higher prior Wait, stacking, Grassy Surge removal, suppression and changed forms remain separate incomplete mechanics."
+  ]
+}

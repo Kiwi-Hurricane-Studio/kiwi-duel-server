@@ -1,0 +1,21 @@
+{
+	admin off
+}
+
+{$DUEL_PUBLIC_HOST} {
+	header -Server
+	@battle path /v1/battle/socket
+	handle @battle {
+		reverse_proxy 127.0.0.1:8080 {
+			# Exactly one trusted client IP; never forward a supplied XFF chain.
+			header_up X-Forwarded-For {remote_host}
+			stream_close_delay 30s
+		}
+	}
+	handle {
+		reverse_proxy 127.0.0.1:8080 {
+			header_up X-Forwarded-For {remote_host}
+		}
+	}
+	# Access logging is deliberately off: account-link URLs can contain codes.
+}

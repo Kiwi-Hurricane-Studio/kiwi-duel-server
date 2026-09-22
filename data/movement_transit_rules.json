@@ -1,0 +1,276 @@
+{
+  "schema": "kiwi-movement-transit-rules-v1",
+  "status": "partial_description_derived",
+  "self_field_grants": [
+    1122,
+    1125,
+    1191,
+    1244,
+    1248,
+    1260,
+    1265,
+    1268,
+    1271,
+    1274,
+    1275,
+    1319,
+    1399,
+    1401,
+    1402,
+    1409,
+    1410,
+    1435,
+    1439,
+    1441,
+    1454,
+    1460,
+    1464,
+    1485
+  ],
+  "conditional_field_grants": [
+    {
+      "ability": 1200,
+      "occupant_positive_wait": true,
+      "occupant_conditions": []
+    },
+    {
+      "ability": 1215,
+      "occupant_positive_wait": true,
+      "occupant_conditions": [
+        "paralyze"
+      ]
+    }
+  ],
+  "conditional_evidence": "docs/generated/mechanics-20260913/wait-conditional-contract.json",
+  "provider_field_grants": [
+    {
+      "ability": 1345,
+      "mover_types": [
+        8
+      ],
+      "occupant_types": [
+        8
+      ],
+      "healthy_source": true,
+      "healthy_mover": false
+    },
+    {
+      "ability": 1468,
+      "mover_types": [
+        8
+      ],
+      "healthy_source": false,
+      "healthy_mover": true
+    }
+  ],
+  "special_conditions": [
+    "bad_poison",
+    "burn",
+    "freeze",
+    "melt",
+    "panic",
+    "paralyze",
+    "poison",
+    "sleep"
+  ],
+  "provider_evidence": "docs/generated/mechanics-20260913/water-provider-contract.json",
+  "blockers": [
+    {
+      "ability": 1032,
+      "scope": "self",
+      "mover_side": "opposing"
+    },
+    {
+      "ability": 1051,
+      "scope": "self",
+      "mover_side": "opposing"
+    },
+    {
+      "ability": 1249,
+      "scope": "self",
+      "mover_side": "opposing"
+    },
+    {
+      "ability": 1408,
+      "scope": "self",
+      "mover_side": "opposing"
+    },
+    {
+      "ability": 1287,
+      "scope": "team",
+      "mover_side": "opposing",
+      "mover_types": [
+        15
+      ],
+      "occupant_types": [
+        0
+      ]
+    },
+    {
+      "ability": 1300,
+      "scope": "connected",
+      "mover_side": "opposing"
+    },
+    {
+      "ability": 1310,
+      "scope": "self",
+      "mover_types": [
+        2,
+        17
+      ]
+    },
+    {
+      "ability": 1310,
+      "scope": "all",
+      "mover_conditions": [
+        "poison",
+        "bad_poison"
+      ]
+    },
+    {
+      "ability": 1331,
+      "scope": "all",
+      "mover_side": "opposing",
+      "mover_types": [
+        1
+      ]
+    },
+    {
+      "ability": 1331,
+      "scope": "all",
+      "mover_side": "opposing",
+      "mover_conditions": [
+        "paralyze"
+      ]
+    },
+    {
+      "ability": 1446,
+      "scope": "team",
+      "mover_side": "opposing",
+      "exempt_mover_types": [
+        15,
+        11
+      ]
+    },
+    {
+      "ability": 1450,
+      "scope": "self",
+      "mover_side": "opposing",
+      "exempt_mover_types": [
+        15,
+        11
+      ]
+    }
+  ],
+  "adjacent_opposing_mp_blockers": [
+    1244
+  ],
+  "unverified_adjacent_route_barriers": [
+    1472
+  ],
+  "evidence": "docs/generated/mechanics-20260913/movement-transit-contract.json",
+  "typed_self_field_grants": [
+    {
+      "ability": 1385,
+      "opposing_types": [
+        7,
+        11
+      ]
+    },
+    {
+      "ability": 1386,
+      "opposing_types": [
+        8,
+        12
+      ]
+    },
+    {
+      "ability": 1387,
+      "opposing_types": [
+        2,
+        9
+      ]
+    },
+    {
+      "ability": 1405,
+      "opposing_types": [
+        4,
+        10
+      ]
+    },
+    {
+      "ability": 1406,
+      "opposing_types": [
+        3,
+        15
+      ]
+    },
+    {
+      "ability": 1424,
+      "opposing_types": [
+        16,
+        0
+      ]
+    },
+    {
+      "ability": 1445,
+      "opposing_types": [
+        11,
+        12
+      ]
+    },
+    {
+      "ability": 1474,
+      "opposing_types": [
+        8,
+        14
+      ]
+    }
+  ],
+  "entry_blockade_mp_bonus": 1,
+  "entry_points": {
+    "black": [
+      21,
+      27
+    ],
+    "white": [
+      0,
+      6
+    ]
+  },
+  "typed_arrow_evidence": "docs/generated/mechanics-20260913/typed-arrow-contract.json",
+  "holder_field_grants": [
+    1247,
+    1273
+  ],
+  "bench_spot_entries": [
+    {
+      "ability": 1273,
+      "targets": {
+        "black": [
+          16,
+          17,
+          22,
+          19,
+          20,
+          26
+        ],
+        "white": [
+          1,
+          7,
+          8,
+          5,
+          10,
+          11
+        ]
+      },
+      "use_blocking_conditions": [
+        "sleep",
+        "freeze",
+        "melt"
+      ]
+    }
+  ],
+  "floating_candle_evidence": "docs/generated/mechanics-20260913/floating-candle-contract.json",
+  "grudge_stone_evidence": "docs/generated/mechanics-20260913/grudge-transit-contract.json"
+}

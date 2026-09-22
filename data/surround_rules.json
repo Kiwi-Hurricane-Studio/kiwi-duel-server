@@ -1,0 +1,21 @@
+{
+  "schema": "kiwi-surround-rules-v1",
+  "status": "partial",
+  "immune_abilities": [1010, 1122, 1261, 1437],
+  "noncontributing_abilities": [1010, 1122],
+  "noncontributing_conditions": ["sleep", "freeze", "melt", "faint"],
+  "unresolved_victim_abilities": [1054, 1475],
+  "unresolved_contributor_abilities": [1231, 1261, 1404],
+  "evidence": [
+    "docs/generated/mechanics-20260913/surround-study.json",
+    "docs/generated/mechanics-20260913/surround-managed-contract.json",
+    "https://www.pokemon.com/uk/strategy/prime-yourself-for-pokemon-duels"
+  ],
+  "boundaries": [
+    "Ordinary MP endpoints are checked before optional battle. Long Throw, Pokemon Switch and Goal Block check after atomic plate movement and before TurnEnd, matching their original output-effect checkpoints. Other displacement and marker transitions remain unimplemented.",
+    "Simultaneous victims use one occupancy snapshot and ascending figure index for Center entry; original ordering is unobserved.",
+    "Sleep/freeze/melt cannot-use clauses are interpreted as excluding surround contribution; original engine predicate is unobserved. Wait does not prevent contribution.",
+    "Optional Slippery swap, Ultra Beast immunity, evolution and replacement destinations fail closed when this check encounters them.",
+    "General special-marker storage, coexistence, suppression, curse exclusion and marker-triggered checks remain unimplemented."
+  ]
+}

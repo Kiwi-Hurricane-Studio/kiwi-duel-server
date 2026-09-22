@@ -1,0 +1,21 @@
+{
+  "schema": "kiwi-damage-aura-rules-v1",
+  "rules": [
+    {"ability": 1218, "type": 11, "bonus": 10, "requires_healthy_source": true},
+    {"ability": 1307, "type": 3, "bonus": 20, "requires_healthy_source": false},
+    {"ability": 1352, "type": 6, "bonus": 20, "requires_healthy_source": false},
+    {"ability": 1411, "type": 0, "bonus": 20, "requires_healthy_source": false},
+    {"ability": 1243, "type": 8, "bonus": 20, "requires_healthy_source": false},
+    {"ability": 1371, "type": 9, "bonus": 20, "requires_healthy_source": false},
+    {"ability": 1409, "type": 15, "bonus": 20, "requires_healthy_source": false},
+    {"ability": 1420, "type": 3, "bonus": 20, "requires_healthy_source": false},
+    {"ability": 1422, "type": 5, "bonus": 20, "requires_healthy_source": false},
+    {"ability": 1466, "type": 1, "bonus": 20, "requires_healthy_source": false},
+    {"ability": 1468, "types": [8,0], "bonus": 10, "requires_healthy_source": false},
+    {"ability": 1408, "types": [3,17], "bonus": 10, "per_matching_type": true, "allows_bench_source": true, "requires_healthy_source": false},
+    {"ability": 1446, "types": [14,12], "bonus": 10, "per_matching_type": true, "allows_bench_source": true, "requires_healthy_source": false}
+  ],
+  "self_field_count_rules": [{"ability": 1243, "type": 8, "per_figure": 10}],
+  "special_conditions": ["bad_poison", "burn", "freeze", "melt", "panic", "paralyze", "poison", "sleep"],
+  "evidence_scope": "Original single-type additive clauses and original type IDs. Field sources affect allied White/Gold damage, including self. Additive per-source stacking and placement after skill multipliers but before plate/condition notices are explicit derived boundaries pending native compound traces. Suppression and changed types/forms remain unverified."
+}

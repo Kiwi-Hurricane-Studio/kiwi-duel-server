@@ -1,0 +1,9 @@
+{
+  "schema": "kiwi-purple-star-rules-v1",
+  "rules": [
+    {"ability":1263,"target":"self","bonus":1,"first_battle":false,"owner_turn_only":false,"noncumulative":false},
+    {"ability":1262,"target":"allied_type","type":3,"bonus":1,"first_battle":false,"owner_turn_only":true,"noncumulative":true},
+    {"ability":1435,"target":"allied_type","type":7,"bonus":1,"first_battle":true,"owner_turn_only":false,"noncumulative":false}
+  ],
+  "evidence_scope": "Original printed Purple-star clauses and static BattleResult.Result.speed_or_damage contract. Psychic Surge is explicitly noncumulative and field-wide for stars. Isolated original ARM Surge participant and separate ally controls verify1262 gives allied Psychic Purple +1 on the provider owner's turn and emits that provider's PokePowerNotice after Spin, before base damage notices. Opponent-owned Surge gives neither bonus nor star notice in these controls. Notice behavior of1263/1435, Surprise multiple-source and cross-ability addition, suppression, forms/types, Z and marker interactions remain unverified."
+}

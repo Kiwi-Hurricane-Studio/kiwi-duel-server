@@ -1,0 +1,8 @@
+{
+  "schema": "kiwi-post-mp-battle-rules-v1",
+  "status": "partial_description_derived",
+  "self_attack_bans": [1050],
+  "adjacent_opposing_attack_bans": [1032, 1464],
+  "adjacent_opposing_required_targets": [1051],
+  "evidence": "docs/generated/mechanics-20260913/post-mp-battle-contract.json"
+}

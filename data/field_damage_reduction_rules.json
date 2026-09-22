@@ -1,0 +1,12 @@
+{
+  "schema": "kiwi-field-damage-reduction-rules-v1",
+  "status": "partial_description_derived",
+  "rules": [
+    {"ability": 1102, "adjacent_source": true, "reduction": 10},
+    {"ability": 1219, "adjacent_source": true, "reduction": 10},
+    {"ability": 1248, "reduction": 1},
+    {"ability": 1322, "recipient_types": [5, 12], "reduction": 10},
+    {"ability": 1401, "adjacent_ally_type": 15, "per_figure": 20, "noncumulative": true}
+  ],
+  "evidence": "docs/generated/mechanics-20260913/field-damage-reduction-contract.json"
+}

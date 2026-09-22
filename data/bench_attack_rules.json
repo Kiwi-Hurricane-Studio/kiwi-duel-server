@@ -1,0 +1,29 @@
+{
+  "schema": "kiwi-bench-attack-rules-v1",
+  "status": "partial",
+  "skill_ids": [1027, 1052, 1098, 1329, 1467, 1499, 1630],
+  "attacks": [
+    {"id":1027,"targets":"opponent","wait":2,"wait_targets":"moved_targets"},
+    {"id":1052,"targets":"adjacent","wait":2,"wait_targets":"moved_targets"},
+    {"id":1098,"targets":"opponent","wait":2,"wait_targets":"moved_targets"},
+    {"id":1329,"targets":"opponent","wait":2,"wait_targets":"moved_targets"},
+    {"id":1467,"targets":"self","wait":2,"wait_targets":"moved_targets"},
+    {"id":1499,"targets":"opponent","wait":2,"wait_targets":"moved_targets"},
+    {"id":1630,"targets":"opponent","wait":3,"wait_targets":"opponent_and_opposing_flying"}
+  ],
+  "flying_type": 12,
+  "description": "The battle opponent is moved to the bench and gains Wait.",
+  "wait": 2,
+  "movement_protection_abilities": [1007, 1018, 1226, 1307, 1310, 1372, 1425, 1426],
+  "other_attack_protection": [1007, 1018, 1226, 1307, 1310, 1372],
+  "battle_opponent_protection": [1425, 1426],
+  "adjacent_opposing_team_traps": [1425, 1426],
+  "unresolved": [
+    "The four original exact descriptions establish the opponent bench-and-Wait effect. Storm1052 uses adjacent figures and Dimensional Slip1467 uses its own figure. Their Wait2 is derived from retained native gains-Wait controls; direct native outcomes remain unobserved. Hurricane1630 explicitly assigns Wait3.",
+    "For Wily Jaws1425/Fang Trap1426, both opposing-Pokemon phrases are interpreted relative to the ability owner: the adjacent target and Attack emitter must both oppose that owner. This includes an enemy self-return. Native confirmation and suppression remain pending.",
+    "Multi-target selection and movement-prevention sources use pre-battle field positions. Native simultaneous-effect ordering, especially when a trap source itself moves, remains unobserved.",
+    "Applying the independent Wait clause when movement is protected requires a native contrast.",
+    "Native notice/cleanup order, other markers and attachments, suppression, forms and mixed secondary-spin/surround interactions remain unverified.",
+    "The listed abilities protect against these four opposing Attacks; their other clauses, Sweet Scent exceptions and broader movement sources require separate handlers."
+  ]
+}

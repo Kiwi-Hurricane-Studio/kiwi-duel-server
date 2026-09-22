@@ -1,0 +1,9 @@
+{
+  "schema": "kiwi-wait-immunity-rules-v1",
+  "status": "partial_description_derived",
+  "abilities": [
+    1055,
+    1215
+  ],
+  "evidence": "docs/generated/mechanics-20260913/wait-conditional-contract.json"
+}

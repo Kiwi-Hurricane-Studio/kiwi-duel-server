@@ -1,0 +1,25 @@
+{
+  "schema": "kiwi-purple-condition-rules-v1",
+  "status": "partial_description_derived",
+  "attacks": [
+    {"skill":1035,"condition":"sleep","target":"adjacent_to_emitter_all_sides"},
+    {"skill":1041,"condition":"paralyze","target":"emitter_and_adjacent_all_sides"},
+    {"skill":1055,"condition":"poison","target":"adjacent_to_emitter_all_sides"},
+    {"skill":1086,"condition":"sleep","target":"emitter"},
+    {"skill":1099,"condition":"panic","target":"opponent"},
+    {"skill":1100,"condition":"panic","target":"adjacent_to_emitter_all_sides"},
+    {"skill":1145,"condition":"paralyze","target":"connected_from_opponent_all_sides"},
+    {"skill":1233,"condition":"burn","target":"adjacent_to_emitter_all_sides"},
+    {"skill":1546,"condition":"panic","target":"opponent_and_adjacent_opponents"},
+    {"skill":1548,"condition":"paralyze","target":"connected_from_opponent_excluding_emitter"},
+    {"skill":1764,"condition":"sleep","target":"opponent"},
+    {"skill":1769,"condition":"paralyze","target":"emitter_and_opponent"}
+  ],
+  "evidence": "docs/generated/mechanics-20260913/purple-condition-target-study.json",
+  "unresolved": [
+    "Native target and notice order, succession traversal and propagation through immune figures remain unobserved.",
+    "Shock Wave excludes its emitter from the selected component; whether native traversal can cross an excluded emitter still requires observation.",
+    "Suppression, changed abilities/forms/types, recovery and other special-condition interactions remain incomplete.",
+    "Mass Hypnosis1534 is not admitted: same-species bench/Center scope is unresolved."
+  ]
+}

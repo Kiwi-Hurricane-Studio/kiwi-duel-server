@@ -1,0 +1,9 @@
+{
+  "schema": "kiwi-plate-restriction-rules-v1",
+  "adjacent_opposing_target_prohibition": [1425],
+  "field_self_movement_prohibition": [1372],
+  "healthy_field_opposing_player_prohibition": [1411],
+  "field_species_count_prohibition": {"ability": 1038, "minimum": 3, "species_poke_no": 186, "canonical_rule_ids": [1242]},
+  "special_conditions": ["bad_poison", "burn", "freeze", "melt", "panic", "paralyze", "poison", "sleep"],
+  "evidence_scope": "Original Wily Jaws, Slow Start, Intimidating Aura and Big Chorus descriptions; pre-declaration field state. Species186 Politoed binds to playable rule1242 through original masters. Unlinked abilities1039/1040, bench/P.C. ability activation, suppression and changed forms remain unverified."
+}

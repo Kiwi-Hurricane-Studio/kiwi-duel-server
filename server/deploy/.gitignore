@@ -1,0 +1,7 @@
+.env
+.env.*
+!.env.example
+backups/
+restore-staging/
+*.sqlite
+*.sqlite-*
